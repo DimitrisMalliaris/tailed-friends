@@ -18,7 +18,7 @@ h1 {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
-    background-image: url(wood.jpg);
+    background-image: url('wood.jpg');
 }
 
 body{
