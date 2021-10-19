@@ -2,22 +2,19 @@ export  const friends = [
     {
         id: 1,
         name: 'Maria',
-        username: 'ScrltFox',
-        email: '',
+        username: 'Fox',
         avatar: './Img/fox.png'
     },
     {
         id: 2,
         name: 'Dimitris',
-        username: 'Dimy993',
-        email: '',
+        username: 'Raccoon',
         avatar: './Img/raccoon.png'
     },
     {
         id: 3,
         name: 'Nick',
-        username: 'NickTheYits',
-        email: '',
+        username: 'Tanuki',
         avatar: './Img/tanuki.png'
     }
 ]

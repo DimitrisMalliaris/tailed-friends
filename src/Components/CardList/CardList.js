@@ -9,7 +9,7 @@ const CardList = ({friends}) => {
                     return(
                         <Card key={info.id} 
                                 name={info.name} 
-                                email={info.email} 
+                                username={info.username} 
                                 avatar={info.avatar} />
                     );
                 })
