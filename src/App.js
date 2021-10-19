@@ -16,15 +16,15 @@ class App extends Component {
     }
 
     componentDidMount() {
-        fetch('https://github.com/DimitrisMalliaris/StackedRaccoon/raw/main/users.json', {mode: 'no-cors', credentials: 'same-origin'})
-        .then(response => {
-            return response.json();
-        })
-        .then(users => {
-            this.setState({ friends : users });
-        }).catch(() => {
-            this.setState({ friends : friends });
-        });
+        // fetch('https://github.com/DimitrisMalliaris/StackedRaccoon/raw/main/users.json', {mode: 'no-cors', credentials: 'same-origin'})
+        // .then(response => {
+        //     return response.json();
+        // })
+        // .then(users => {
+        //     this.setState({ friends : users });
+        // }).catch(() => {
+        this.setState({ friends : friends });
+        // });
     }
 
     onSearchChange = (event) => {
