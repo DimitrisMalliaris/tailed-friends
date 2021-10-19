@@ -17,7 +17,6 @@ class App extends Component {
 
     componentDidMount() {
         this.setState({ friends : friends });
-        console.log(friends);
     }
 
     onSearchChange = (event) => {
